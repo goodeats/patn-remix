@@ -113,3 +113,16 @@ Follow closely with these steps and
 - Finally, now you can deploy your branch 🙌
   - Perhaps try dev first to see it deploy and then merge to main to see it in
     prod
+
+Tests seem flaky at first, but work eventually to deploy to dev??
+
+### Deployment takeaway
+
+There are certainly other ways to deploy an app, but I wanted to get a handle of
+the "Epic Stack" way in case the learning experince would be worth the effort (I
+think so)
+
+A little frustrating that the Epic Stack was not able to deploy out of the box
+as advertised and required some troubleshooting, but issues with Fly.io and
+Playwright will hopefully be smoothened out and taken on with more experience
+going forward 💪
