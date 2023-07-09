@@ -74,8 +74,8 @@ export const links: LinksFunction = () => {
 
 export const meta: V2_MetaFunction = () => {
 	return [
-		{ title: 'Epic Notes' },
-		{ name: 'description', content: 'Find yourself in outer space' },
+		{ title: 'Pat N' },
+		{ name: 'description', content: 'Software engineer extraordinaire' },
 	]
 }
 
@@ -156,10 +156,11 @@ function App() {
 					<header className="container py-6">
 						<nav className="flex justify-between">
 							<Link to="/">
-								<div className="font-light">epic</div>
-								<div className="font-bold">notes</div>
+								<div className="font-light">web</div>
+								<div className="font-bold">dev</div>
 							</Link>
-							<div className="flex items-center gap-10">
+							{/* TODO: add prod login next */}
+							{/* <div className="flex items-center gap-10">
 								{user ? (
 									<UserDropdown />
 								) : (
@@ -167,7 +168,7 @@ function App() {
 										<Link to="/login">Log In</Link>
 									</Button>
 								)}
-							</div>
+							</div> */}
 						</nav>
 					</header>
 
@@ -177,8 +178,8 @@ function App() {
 
 					<div className="container flex justify-between pb-5">
 						<Link to="/">
-							<div className="font-light">epic</div>
-							<div className="font-bold">notes</div>
+							<div className="font-light">web</div>
+							<div className="font-bold">dev</div>
 						</Link>
 						<ThemeSwitch userPreference={data.requestInfo.userPrefs.theme} />
 					</div>
