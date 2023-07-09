@@ -20,7 +20,6 @@ import {
 } from '@remix-run/react'
 import { withSentry } from '@sentry/remix'
 import { useRef } from 'react'
-import { Confetti } from './components/confetti.tsx'
 import { Button } from './components/ui/button.tsx'
 import {
 	DropdownMenu,
@@ -184,7 +183,6 @@ function App() {
 						<ThemeSwitch userPreference={data.requestInfo.userPrefs.theme} />
 					</div>
 				</div>
-				<Confetti confetti={data.flash?.confetti} />
 				<Toaster />
 				<ScrollRestoration nonce={nonce} />
 				<Scripts nonce={nonce} />

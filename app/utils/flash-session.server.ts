@@ -76,7 +76,9 @@ export async function redirectWithFlash(
  * @returns Returns a redirect response with confetti stored in the session
  */
 export function redirectWithConfetti(url: string, init?: ResponseInit) {
-	return redirectWithFlash(url, { confetti: randomUUID() }, init)
+	// removed confetti-react from the project because it was depending on an old version of react
+	// return redirectWithFlash(url, { confetti: randomUUID() }, init)
+	return redirectWithFlash(url, {}, init)
 }
 
 /**
