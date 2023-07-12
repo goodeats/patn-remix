@@ -30,6 +30,20 @@ While not all my professional details can be shared here, I hope this site
 provides a glimpse into my capabilities through the various links, blog posts,
 and other elements that make up this portfolio.
 
+### Project Management
+
+There are many project management tools and I would like to try Github's own
+[Projects](https://github.com/features/issues) feature.
+
+You can find my project for this app
+[here](https://github.com/users/goodeats/projects/1). I am using this to create
+[Issues](https://github.com/goodeats/patn-remix/issues) right within my repo as
+development tasks to demonstrate a bit of my organizational skills.
+
+Please forgive me if I stray a bit as this is a personal project :), but also
+feel free to write your own Issue(s) if you would like to suggest something to
+add or fix :D
+
 ## Development
 
 - Initial setup:
