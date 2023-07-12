@@ -21,13 +21,13 @@ import {
 import { withSentry } from '@sentry/remix'
 // import { useRef } from 'react'
 // import { Button } from './components/ui/button.tsx'
-// import {
-// 	DropdownMenu,
-// 	DropdownMenuContent,
-// 	DropdownMenuItem,
-// 	DropdownMenuPortal,
-// 	DropdownMenuTrigger,
-// } from './components/ui/dropdown-menu.tsx'
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuPortal,
+	DropdownMenuTrigger,
+} from './components/ui/dropdown-menu.tsx'
 // import { Icon, href as iconsHref } from './components/ui/icon.tsx'
 import { href as iconsHref } from './components/ui/icon.tsx'
 import { Toaster } from './components/ui/toaster.tsx'
