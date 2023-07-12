@@ -147,8 +147,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run validate"
+      ".husky/pre-commit": "lint-staged",
+      ".husky/pre-push": "npm run validate"
     }
   }
 }
